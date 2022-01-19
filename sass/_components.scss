@@ -1,0 +1,77 @@
+.header{
+    color:var(--color-dark-blue);
+    font-size: 2.8rem;
+    font-weight: 900;
+
+}
+.paragraph{
+    line-height: 2.6rem;
+    margin: 3rem 0 2rem 0;
+
+}
+.price-card{
+    background-color: var(--color-very-pale-blue);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 1.1rem;
+    padding:2.5rem;
+
+    &__icon{
+        background-image: url("../images/icon-music.svg");
+        height:4.8rem;
+        width:4.8rem;
+    }
+    &__texts{
+        text-align: left;
+        margin-left:1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap:.4rem;
+        &--plan{
+            font-size: inherit;
+            color:var(--color-dark-blue);
+            font-weight: 700;
+
+        }
+        &--price{
+
+
+        }
+    }
+    &__change{
+        color:var(--color-bright-blue);
+        font-size: 1.4rem;
+       //text-decoration: underline;
+        border-bottom: 2px solid currentColor;
+        font-weight: 900;
+        margin-left:auto;
+        transition: all .4s;
+
+        &:hover{
+            color:var(--color-desaturated-blue);
+        }
+
+
+    }
+}
+
+.btn{
+    text-decoration: none;
+    font-weight: 700;
+
+    &-payment{
+        color:var(--color-very-pale-blue);
+        background-color: var(--color-bright-blue);
+        width: 100%;
+        padding:1.5rem 0;
+        border-radius: 1.1rem;
+        margin: 3rem 0 3rem 0;
+        box-shadow: 0 1rem 1.5rem .2rem hsla(245, 75%, 52%, 0.25);
+
+    }
+    &-cancel{
+        color:var(--color-desaturated-blue);
+
+    }
+}
