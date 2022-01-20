@@ -20,14 +20,15 @@ You can use any tools you like to help you complete the challenge. So if you've 
 ## Built with
 - HTML
 - Sass CSS
+- Flexbox
+- Responsive Design
 
 
 ## Useful resources
 
-- []()
-- []()
-- []()
-- []()
+- [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+
 
 
 ## Author

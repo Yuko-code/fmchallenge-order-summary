@@ -33,6 +33,10 @@ body {
   font-size: 1.6rem;
   display: flex;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    body {
+      background-image: url("../images/pattern-background-mobile.svg");
+      background-position: top center; } }
 
 .card {
   max-width: 45rem;
@@ -41,11 +45,19 @@ body {
   overflow: hidden;
   box-shadow: 0 1rem 2.5rem 0.2rem rgba(56, 41, 224, 0.2);
   margin: auto 0; }
+  @media only screen and (max-width: 37.5em) {
+    .card {
+      max-width: 32.7rem; } }
 
 .img-box {
   background-image: url("../images/illustration-hero.svg");
   width: 100%;
   height: 22rem; }
+  @media only screen and (max-width: 37.5em) {
+    .img-box {
+      background-image: url("../images/illustration-hero.svg");
+      height: 16rem;
+      background-size: cover; } }
 
 .text-box {
   padding: 4.5rem 4.5rem 5rem 4.5rem;
@@ -53,15 +65,26 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center; }
+  @media only screen and (max-width: 37.5em) {
+    .text-box {
+      padding: 3rem; } }
 
 .header {
   color: var(--color-dark-blue);
   font-size: 2.8rem;
   font-weight: 900; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      font-size: 2.2rem; } }
 
 .paragraph {
   line-height: 2.6rem;
   margin: 3rem 0 2rem 0; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      margin: 2rem 0 2rem 0; } }
 
 .price-card {
   background-color: var(--color-very-pale-blue);
@@ -70,6 +93,9 @@ body {
   width: 100%;
   border-radius: 1.1rem;
   padding: 2.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .price-card {
+      padding: 1.5rem; } }
   .price-card__icon {
     background-image: url("../images/icon-music.svg");
     height: 4.8rem;
@@ -80,6 +106,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: .4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .price-card__texts {
+        font-size: 1.4rem; } }
     .price-card__texts--plan {
       font-size: inherit;
       color: var(--color-dark-blue);
@@ -93,8 +122,12 @@ body {
     transition: all .4s; }
     .price-card__change:hover {
       color: var(--color-desaturated-blue); }
+    @media only screen and (max-width: 37.5em) {
+      .price-card__change {
+        font-size: 1.3rem; } }
 
 .btn {
+  font-size: 1.5rem;
   text-decoration: none;
   font-weight: 700; }
   .btn-payment {
@@ -103,7 +136,10 @@ body {
     width: 100%;
     padding: 1.5rem 0;
     border-radius: 1.1rem;
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0;
     box-shadow: 0 1rem 1.5rem 0.2rem rgba(56, 41, 224, 0.25); }
+    @media only screen and (max-width: 37.5em) {
+      .btn-payment {
+        margin: 2rem 0; } }
   .btn-cancel {
     color: var(--color-desaturated-blue); }
